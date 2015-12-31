@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-assertive">
+        <button class="button button-clear"><i class="icon ion-ios-arrow-left"> Back</i></button>
+        <h1 class="title"><a href="http://www.jdpower.com/cars/ratings-and-awards">J.D. Power Car Ratings</a></h1>
+        <button class="icon ion-navicon button button-clear"></button>
+      </ion-header-bar>
+      <ion-content class="padding padding-top">
+        <p>
+          Your trusted source for the information you need to make a better, more informed decision.
+        </p>
+        <p>
+          Our Power Circle Ratings are based on independent and unbiased feedback from millions of verified car owners. When you are looking for your next car, rely on J.D. Power for quality, performance, design and dependability ratings and research for new and used cars.
+        </p>
+        <h3><i class="icon ion-ionic"> ionic</i></h3>
+        <button class="button button-assertive"><i class="icon ion-ionic"> ionic</i></button>
+        <p class="padding"><a href="http://ionicframework.com/docs/components/#icon-buttons" class="button icon-right ion-chevron-right button-calm">Learn More About Ionicons</a></p>
+        <!-- test for iosnic button -->
+        <button class="button button-block"><i class="icon ion-loading-c"></i><a href="http://ionicframework.com/docs/components/#icon-buttons">iCon Button</a></button>
+        <a href="http://ionicframework.com/docs/components/#grid" class="button button-block button-assertive">link to Grid Doc</a>
+
+        <div class="button-bar">
+          <button class="icon icon-left ion-social-youtube button button-assertive">Youtube</button>
+          <button class="icon icon-left ion-social-facebook button button-positive">Facebook</button>
+          <button class="icon icon-left ion-social-github button button-calm">Github</button>
+        </div>        
+        <div class="button-bar padding">
+          <button class="icon ion-social-javascript button button-clear"></button>
+          <button class="icon ion-social-pinterest button button-assertive button-clear"></button>
+          <button class="icon ion-social-skype button button-positive button-clear"></button>
+        </div>
+
+      </ion-content>
+
+      <ion-footer-bar class="bar-assertive">
+        <button class="button button-clear">Left</button>
+        <div class="title">Title</div>
+        <button class="button button-clear">Right</button>
+      </ion-footer-bar>
+
+    </ion-pane>
+  </body>
+</html>

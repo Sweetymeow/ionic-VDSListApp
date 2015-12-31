@@ -1,0 +1,233 @@
+[
+  {
+    "Brand":"Toyota",
+    "Model":"Corolla",
+    "category":"compact",
+    "year":2012,
+    "overall":5,
+    "powertrain":4,
+    "bodyAinterior":5,
+    "featureAaccessory":5
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Honda",
+    "Model":"Civic",
+    "category":"compact",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":4,
+    "featureAaccessory":5
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Ford",
+    "Model":"Focus",
+    "category":"compact",
+    "year":2012,
+    "overall":2,
+    "powertrain":2,
+    "bodyAinterior":2,
+    "featureAaccessory":2
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Volkswagen",
+    "Model":"Beetle",
+    "category":"compact",
+    "year":2012,
+    "overall":3,
+    "powertrain":4,
+    "bodyAinterior":2,
+    "featureAaccessory":2
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Volkswagen",
+    "Model":"Golf",
+    "category":"compact",
+    "year":2012,
+    "overall":4,
+    "powertrain":4,
+    "bodyAinterior":4,
+    "featureAaccessory":3
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Lexus",
+    "Model":"ES",
+    "category":"compact premium",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":5,
+    "featureAaccessory":4
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Audi",
+    "Model":"A3",
+    "category":"compact premium",
+    "year":2012,
+    "overall":3,
+    "powertrain":2,
+    "bodyAinterior":2,
+    "featureAaccessory":4
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Scion",
+    "Model":"tC",
+    "category":"compact sporty",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":3,
+    "featureAaccessory":5
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Scion",
+    "Model":"xB",
+    "category":"compact multi-purpose",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":2,
+    "featureAaccessory":4
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Nissan",
+    "Model":"Murano",
+    "category":"Midsize SUV",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":4,
+    "featureAaccessory":4
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Honda",
+    "Model":"Crosstour",
+    "category":"Midsize SUV",
+    "year":2012,
+    "overall":4,
+    "powertrain":3,
+    "bodyAinterior":4,
+    "featureAaccessory":4
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Jeep",
+    "Model":"Grand Cherokee",
+    "category":"Midsize SUV",
+    "year":2012,
+    "overall":2,
+    "powertrain":2,
+    "bodyAinterior":2,
+    "featureAaccessory":2
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Jeep",
+    "Model":"Compass",
+    "category":"Small SUV",
+    "year":2012,
+    "overall":3,
+    "powertrain":2,
+    "bodyAinterior":4,
+    "featureAaccessory":5
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Kia",
+    "Model":"Sportage",
+    "category":"Small SUV",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":4,
+    "featureAaccessory":4
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Volkswagen",
+    "Model":"Tiguan",
+    "category":"Small SUV",
+    "year":2012,
+    "overall":3,
+    "powertrain":2,
+    "bodyAinterior":5,
+    "featureAaccessory":2
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Mercedes-Benz",
+    "Model":"M-Class",
+    "category":"Midsize premium SUV",
+    "year":2012,
+    "overall":3,
+    "powertrain":4,
+    "bodyAinterior":3,
+    "featureAaccessory":3
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"BMW",
+    "Model":"X5",
+    "category":"Midsize premium SUV",
+    "year":2012,
+    "overall":2,
+    "powertrain":2,
+    "bodyAinterior":3,
+    "featureAaccessory":3
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Audi",
+    "Model":"Q7",
+    "category":"Midsize premium SUV",
+    "year":2012,
+    "overall":2,
+    "powertrain":2,
+    "bodyAinterior":2,
+    "featureAaccessory":2
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Lexus",
+    "Model":"GX",
+    "category":"Midsize premium SUV",
+    "year":2012,
+    "overall":5,
+    "powertrain":4,
+    "bodyAinterior":5,
+    "featureAaccessory":5
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Buick",
+    "Model":"LaCrosse",
+    "category":"Large Car",
+    "year":2012,
+    "overall":5,
+    "powertrain":3,
+    "bodyAinterior":5,
+    "featureAaccessory":4
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Honda",
+    "Model":"Ridgeline",
+    "category":"Midsize Pickup",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":3,
+    "featureAaccessory":3
+, "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"GMC",
+    "Model":"Sierra LD",
+    "category":"Large Light Duty Pickup",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":5,
+    "featureAaccessory":5, 
+      "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." },
+  {
+    "Brand":"Chevrolet",
+    "Model":"Camaro",
+    "category":"Midsize Sporty Car",
+    "year":2012,
+    "overall":5,
+    "powertrain":5,
+    "bodyAinterior":5,
+    "featureAaccessory":5, 
+    "Intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique." 
+  }
+]

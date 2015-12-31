@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-assertive">
+        <button class="button button-clear"><i class="icon ion-ios-arrow-left"> Back</i></button>
+        <h1 class="title"><a href="http://www.jdpower.com/cars/ratings-and-awards">J.D. Power Car Ratings</a></h1>
+        <button class="icon ion-navicon button button-clear"></button>
+      </ion-header-bar>
+      <!-- 基本tabs -->
+<!--       <div class="tabs tabs-assertive tabs-icon-top">
+        <a href="" class="tab-item"><i class="icon ion-home"></i>Home</a>
+        <a href="" class="tab-item"><i class="icon ion-calendar"></i>Calender</a>
+        <a href="" class="tab-item"><i class="icon ion-person"></i>About us</a>
+      </div> -->
+      <!-- top striped tabs - with 点击tabs底部有白色细条 -->
+<!--       <div class="tabs-striped tabs-background-assertive tabs-color-light tabs-top">
+          <div class="tabs tabs-icon-top">
+            <a href="" class="tab-item"><i class="icon ion-home"></i>Home</a>
+            <a href="" class="tab-item"><i class="icon ion-calendar"></i>Calender</a>
+            <a href="" class="tab-item"><i class="icon ion-person"></i>About us</a>
+          </div>
+      </div> -->
+      <!-- bottom striped tabs - with 点击tabs顶部有白色细条 -->
+<!--       <div class="tabs-striped tabs-assertive">
+          <div class="tabs tabs-icon-top">
+            <a href="" class="tab-item"><i class="icon ion-home"></i>Home</a>
+            <a href="" class="tab-item"><i class="icon ion-calendar"></i>Calender</a>
+            <a href="" class="tab-item"><i class="icon ion-person"></i>About us</a>
+          </div>
+      </div> -->
+      <!-- use angular to build simliar tabs -->
+      <ion-tabs class="tabs-icon-top tabs-assertive pane tabs-bottom tabs-standard">
+        <ion-tab icon-on="ion-ios-home" icon-off="ion-ios-home-outline" title="Home"></ion-tab>
+        <ion-tab icon-on="ion-ios-calendar" icon-off="ion-ios-calendar-outline" title="Calendar"></ion-tab>
+        <ion-tab icon-on="ion-ios-person"  icon-off="ion-ios-person-outline" title="About"></ion-tab>
+      </ion-tabs>
+
+    </ion-pane>
+  </body>
+</html>

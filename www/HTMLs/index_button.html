@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-assertive">
+        <h1 class="title"><a href="http://www.jdpower.com/cars/ratings-and-awards">J.D. Power Car Ratings</a></h1>
+      </ion-header-bar>
+      <div class="bar bar-subheader">
+        <h2 class="title">Sub Header</h2>
+      </div>
+      <ion-content class="has-subheader padding padding-top">
+        <p>
+          Your trusted source for the information you need to make a better, more informed decision.
+        </p>
+        <p>
+          Our Power Circle Ratings are based on independent and unbiased feedback from millions of verified car owners. When you are looking for your next car, rely on J.D. Power for quality, performance, design and dependability ratings and research for new and used cars.
+        </p>
+        <!-- test for iosnic button -->
+        <button class="button button-block"><i class="icon ion-loading-c"></i><a href="http://ionicframework.com/docs/components/#icon-buttons">iCon Button</a></button>
+        <button class="button button-small">Small Btn</button>
+        <button class="button"> Normal Btn</button>
+        <button class="button button-large">large Btn</button>
+        <a href="http://ionicframework.com/docs/components/#button-sizes" class="button button-block button-assertive">link to Button Doc</a>
+
+        <div class="button-bar">
+          <button class="button button-assertive">Hello</button>
+          <button class="button button-assertive">Hello</button>
+          <button class="button button-assertive">Hello</button>
+        </div>
+
+      </ion-content>
+
+      <ion-footer-bar class="bar-assertive">
+        <button class="button button-clear">Left</button>
+        <div class="title">Title</div>
+        <button class="button button-clear">Right</button>
+      </ion-footer-bar>
+
+    </ion-pane>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-assertive">
+        <button class="button button-clear"><i class="icon ion-ios-arrow-left"> Back</i></button>
+        <h1 class="title"><a href="http://www.jdpower.com/cars/ratings-and-awards">J.D. Power Car Ratings</a></h1>
+        <button class="icon ion-navicon button button-clear"></button>
+      </ion-header-bar>
+      <!-- bottom striped tabs - with 点击tabs顶部有白色细条 -->
+<!--       <div class="tabs-striped tabs-assertive">
+          <div class="tabs tabs-icon-top">
+            <a href="" class="tab-item"><i class="icon ion-home"></i>Home</a>
+            <a href="" class="tab-item"><i class="icon ion-calendar"></i>Calender</a>
+            <a href="" class="tab-item"><i class="icon ion-person"></i>About us</a>
+          </div>
+      </div> -->
+      <!-- use angular to build simliar tabs -->
+      <ion-tabs class="tabs-icon-top tabs-assertive tabs-bottom tabs-standard">
+        <ion-tab icon-on="ion-ios-home" icon-off="ion-ios-home-outline" title="Home"></ion-tab>
+        <ion-tab icon-on="ion-ios-calendar" icon-off="ion-ios-calendar-outline" title="Calendar"></ion-tab>
+        <ion-tab icon-on="ion-ios-person"  icon-off="ion-ios-person-outline" title="About"></ion-tab>
+      </ion-tabs>
+
+      <ion-content class="has-footer">
+        <div class="list list-inset">
+          <h4 class="item padding">Form Elements: 
+            <p>Input / input-Label / Checkbox / Radio / Toggle</p>
+          </h4>
+        </div>
+
+        <div class="list list-inset">
+          <div class="item item-divider">
+            Sign Up (List)
+          </div>
+
+          <label for="" class="item item-input">
+            <span class="input-label">First Name</span>
+            <input type="text" placeholder="Your First Name">
+          </label>
+
+          <label for="" class="item item-input item-stacked-label">
+            <span class="input-label">Last Name</span>
+            <input type="text" placeholder="Your Last Name">
+          </label>
+
+          <label for="" class="item item-input item-floating-label">
+            <span class="input-label">Floating-label</span>
+            <input type="text" placeholder="Input content to show label">
+          </label>
+          
+          <label for="" class="item item-input">
+            <textarea placeholder="Comments(textarea)"></textarea>
+          </label>
+        </div>
+
+        <div class="card">
+          <div class="item item-divider">
+            Login Form (div.card > label.item.item-input)
+          </div>
+          <label for="" class="item item-input">
+            <span class="input-label">First Name</span>
+            <input type="text" placeholder="Your First Name">
+          </label>
+          <label for="" class="item item-input">
+            <span class="input-label">Last Name</span>
+            <input type="text" placeholder="Your Last Name">
+          </label>
+        </div>
+
+        <div class="list">
+          <label class="item item-divider">
+            <span>div.list > label.item.item-divider</span>
+          </label>
+
+          <div class="item item-input-inset">
+            <label for="" class="item-input-wrapper">
+              <input type="text" placeholder="Address">
+            </label>          
+            <button class="button button-small">search</button>
+          </div> 
+
+          <div class="item item-input-inset">
+            <label for="" class="item-input-wrapper">
+              <input type="text" placeholder="div.tiem.item-input-inset">
+            </label>          
+            <button class="button button-small">search</button>
+          </div> 
+
+          <div class="item item-divider">Check box</div>
+
+          <div class="item item-checkbox checkbox-energized">
+            <label class="checkbox"><input type="checkbox"></label> <span class="input-label">checkbox-energized(Yellow)</span>
+          </div>
+
+          <div class="item item-checkbox checkbox-assertive">
+            <label class="checkbox"><input type="checkbox"></label> <span class="input-label">checkbox-assertive</span>
+          </div>
+
+          <div class="item item-checkbox">
+            <label class="checkbox"><input type="checkbox"></label> <span class="input-label">MIDSIZE PREMIUM SUV</span>
+          </div>
+
+          <div class="item item-divider"><a href="http://ionicframework.com/docs/components/#radio-buttons">Radio</a> button (Click to show icon)</div>
+
+          <label class="item item-radio">
+            <input type="radio" name="social">
+            <div class="radio-content">
+              <div class="item-content">Facebook</div>
+              <i class="radio-icon ion-checkmark"></i>
+            </div>
+          </label>
+          <label class="item item-radio">
+            <input type="radio" name="social">
+            <div class="radio-content">
+              <div class="item-content">Github</div>
+              <i class="radio-icon ion-social-github"></i>
+            </div>
+          </label>
+          <label class="item item-radio">
+            <input type="radio" name="social">
+            <div class="radio-content">
+              <div class="item-content">Pinterest</div>
+              <i class="radio-icon ion-social-pinterest"></i>
+            </div>
+          </label>
+
+          <div class="item item-divider"><a href="http://ionicframework.com/docs/components/#toggle">Taggle</a> button (Click to show icon)</div>
+
+          <div class="item item-toggle">
+            <span class="input-label">VEHICLE</span>
+            <label class="toggle">
+              <input type="checkbox">
+              <div class="track">
+                <div class="handle"></div>
+              </div>
+            </label>
+          </div>
+
+        </div><!-- div.list -->
+
+      </ion-content>
+
+    </ion-pane>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+
+#autolist .item-content{
+  position: relative;
+  z-index: 2;
+  padding: 16px 16px 16px 16px;
+  border: none;
+  background-color: #fff; 
+}
+#autolist .item-icon-right {
+    padding-right: 18px;
+}
+.star .item-content{
+	background: #EEF8F6 !important;
+}
