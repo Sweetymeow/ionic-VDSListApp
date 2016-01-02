@@ -22,9 +22,47 @@ angular.module('starter', ['ionic'])
     }
   });
 })
-.controller('ListController', ['$scope', '$http', function($scope, $http){
+.config(function($stateProvider, $urlRouterProvider){
+  $stateProvider
+  .state('tabs', {
+    url: '/tab',
+    abstract: true,
+    templateUrl: 'templates/tabs.html'
+  }) // parent
+  .state('tabs.home', { // child template
+    url: '/home',
+    views: {
+      'home-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+        templateUrl: 'templates/home.html'
+      }
+    }
+  }) // child - home
+  .state('tabs.list', { // child template
+    url: '/list',
+    views: {
+      'list-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+        templateUrl: 'templates/list.html',
+        controller: 'ListController'
+      }
+    }
+  }) // child - list page
+  .state('tabs.detail', { // child template
+    url: '/list/:aId',
+    views: {
+      'list-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+        templateUrl: 'templates/detail.html',
+        controller: 'ListController'
+      }
+    }
+  }) // children of list page
+
+  $urlRouterProvider.otherwise('/tab/home');
+})
+.controller('ListController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
   $http.get('js/JDPower_research.json').success(function(data){
     $scope.cardeplists = data;
+    
+    $scope.whichcar = $stateParams.aId;
 
     $scope.moveItem = function(item, fromIndex, toIndex){
           //  remove select item from $scope.cardeplists

@@ -1,5 +1,37 @@
 /* Empty. Add your own CSS if you like */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600italic,600|Lato:400,700,300italic,300|Raleway:400,700,600);
 
+/*AutoHome Page*/
+
+.homepage .splash {
+	background: url(../img/CarRank_bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.homepage .branding{
+	font-family: 'Lato', 'Open Sans', sans-serif;
+	width: 50%;
+	max-width: 320px;
+	min-width: 280px;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+	line-height: 2.2em;
+}
+.homepage .tagline{
+	font-size: 1.6em;
+	color: white;
+	margin-top: 10px;
+}
+.homepage .title{
+	font-size: 2em;
+	color: white;
+	margin-top: 6px;
+}
+
+/*autolist page*/
 #autolist .item-content{
   position: relative;
   z-index: 2;
@@ -13,3 +45,9 @@
 .star .item-content{
 	background: #EEF8F6 !important;
 }
+
+.detailpage-view img{
+	max-width: 320px;
+}
+
+

@@ -1,0 +1,42 @@
+<ion-header-bar class="bar-dark detailpage">
+	<h2 class="title">Car Detail</h2>
+</ion-header-bar>
+
+<ion-view class="detailpage-view">
+	<ion-content class="">
+		<ion-list class="list-inset">
+			<ion-item class="item-text-wrap" ng-repeat="item in cardeplists | filter: {Model: whichcar}">
+			<!-- {{ filter_expression | filter : expression : comparator}} -->
+				<div class="listdetail">
+					 <img ng-src="img/{{item.Model}}.png"
+           fallback-src="img/car_holder.png" 
+           alt="{{item.Model}} Photo">
+			        <h2 style="font-size: 26px">{{item.Brand + " " + item.Model}}</h2>
+			        <h2>{{item.category}}</h2>
+			        <p>{{item.Intro}}</p>
+			        <h2 class="padding-top padding-left">
+				  		<i class="icon ion-wrench"></i>
+				        Dependability</h2>
+					<div class="row responsive-sm">
+						<div class="col">
+						  <strong>Overall</strong>  
+						  <span class="item-note">{{item.overall}}</span>
+						</div>
+						<div class="col">
+						  Powertrain
+						  <span class="item-note">{{item.powertrain}}</span>
+						</div>
+						<div class="col">
+						  Body & Interior
+						  <span class="item-note">{{item.bodyAinterior}}</span>
+						</div>
+						<div class="col">
+						  Feature & Accessory
+						  <span class="item-note">{{item.featureAaccessory}}</span>
+						</div>
+					</div>
+				</div>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

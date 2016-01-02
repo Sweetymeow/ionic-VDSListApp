@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="414px" height="736px" viewBox="0 0 414 736" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>iPhone 6 Plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6-Plus" sketch:type="MSArtboardGroup">
+            <rect id="BG" fill="#444444" sketch:type="MSShapeGroup" x="0" y="0" width="414" height="736"></rect>
+            <text id="J.D-Power-2015-" sketch:type="MSTextLayer" font-family="Exo" font-size="13" font-weight="normal" sketch:alignment="middle" fill="#B6D8FF">
+                <tspan x="163.014" y="698">J.D Power 2015 </tspan>
+                <tspan x="128.1155" y="715">Vehicle Dependability Study</tspan>
+            </text>
+            <text id="Vehicle-Dependabilit" sketch:type="MSTextLayer" font-family="Exo" font-size="26" font-weight="normal" sketch:alignment="middle">
+                <tspan x="85.638" y="351" fill="#99BCFF">Vehicle Dependability</tspan>
+                <tspan x="329.362" y="351" fill="#B5D7FF"></tspan>
+                <tspan x="118.49" y="386" font-size="36" font-weight="420" fill="#FFFFFF">Rank List &amp;</tspan>
+                <tspan x="64.31" y="434" font-size="36" font-weight="420" fill="#FFFFFF">Data Visualization</tspan>
+            </text>
+            <g id="CarRank" sketch:type="MSLayerGroup" transform="translate(146.000000, 198.000000)">
+                <g id="Car" transform="translate(0.000000, 36.600000)" stroke="#F2F2F2" stroke-width="5.6" sketch:type="MSShapeGroup">
+                    <path d="M4.75023426,56.4320526 C3.67085982,56.4320526 0,54.4639199 0,53.2668976 L0,29.2628533 C0,28.0109965 3.16682289,25.5072829 4.75023434,25.5072829 L36.6338745,25.5072829 C36.6338745,25.5072829 51.0118378,1.29128456 57.2639192,1.29128456 L110.202511,1.29128456 C113.938968,1.29128456 123,25.5072829 123,25.5072829 L123,56.8579646" id="Rectangle-10" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <ellipse id="Oval-5" cx="33.5454545" cy="54.74" rx="7.98701299" ry="8.05"></ellipse>
+                    <ellipse id="Oval-5-Copy" cx="97.4415584" cy="56.35" rx="7.98701299" ry="8.05"></ellipse>
+                    <path d="M74.2792208,26.6 L122.201299,26.6" id="Line" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M4.79220779,57.4 L25.5584416,57.4" id="Line-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <path d="M7.30844436,48.0504571 L7.30844436,25.4062682 C7.30844436,24.5545855 8.57586398,22.8795928 12.310908,22.8795928 L41.2014873,22.8795928 L41.2014873,6.08511239 C41.2014873,2.86799552 43.8096691,0.260007004 47.0165886,0.260007004 L79.1773453,0.260007004 C82.3889371,0.260007004 84.9924467,2.85223479 84.9924469,6.05718152 L84.9924472,14.2155675 L114.829287,14.2155675 C118.76873,14.2155675 119,18.157716 119,19.1853585 L119,38.3908969" id="Rank" stroke="#979797" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M17.4622221,31.8086555 L17.4622221,39.0731469 C17.4622221,39.8755605 18.1116509,40.5260452 18.9127618,40.5260452 C19.7138728,40.5260452 20.3633015,39.8755605 20.3633015,39.0731469 L20.3633015,31.8086555 C20.3633015,31.0062419 19.7138728,30.3557572 18.9127618,30.3557572 C18.1116509,30.3557572 17.4622221,31.0062419 17.4622221,31.8086555 Z M24.7149206,31.8086555 L24.7149206,39.0731469 C24.7149206,39.8755605 25.3643493,40.5260452 26.1654602,40.5260452 C26.9665712,40.5260452 27.6159999,39.8755605 27.6159999,39.0731469 L27.6159999,31.8086555 C27.6159999,31.0062419 26.9665712,30.3557572 26.1654602,30.3557572 C25.3643493,30.3557572 24.7149206,31.0062419 24.7149206,31.8086555 Z M31.967619,31.8086555 L31.967619,39.0731469 C31.967619,39.8755605 32.6170477,40.5260452 33.4181587,40.5260452 C34.2192696,40.5260452 34.8686983,39.8755605 34.8686983,39.0731469 L34.8686983,31.8086555 C34.8686983,31.0062419 34.2192696,30.3557572 33.4181587,30.3557572 C32.6170477,30.3557572 31.967619,31.0062419 31.967619,31.8086555 Z" id="3" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                <path d="M94.3408254,21.2232537 L94.3408254,28.4877451 C94.3408254,29.2901587 94.9902541,29.9406434 95.7913651,29.9406434 C96.592476,29.9406434 97.2419047,29.2901587 97.2419047,28.4877451 L97.2419047,21.2232537 C97.2419047,20.4208401 96.592476,19.7703554 95.7913651,19.7703554 C94.9902541,19.7703554 94.3408254,20.4208401 94.3408254,21.2232537 Z M101.593524,21.2232537 L101.593524,28.4877451 C101.593524,29.2901587 102.242953,29.9406434 103.044063,29.9406434 C103.845174,29.9406434 104.494603,29.2901587 104.494603,28.4877451 L104.494603,21.2232537 C104.494603,20.4208401 103.845174,19.7703554 103.044063,19.7703554 C102.242953,19.7703554 101.593524,20.4208401 101.593524,21.2232537 Z" id="2" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                <path d="M61.4,10.0151812 L61.4,17.2796726" id="1" stroke="#D8D8D8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
