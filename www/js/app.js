@@ -36,6 +36,15 @@ angular.module('starter', ['ionic'])
         templateUrl: 'templates/home.html'
       }
     }
+  })
+  .state('tabs.calendar', { // child template
+    url: '/calendar',
+    views: {
+      'calendar-tabs':{
+        templateUrl: 'templates/calendar.html',
+        controller: 'CalendarController'
+      }
+    }
   }) // child - home
   .state('tabs.list', { // child template
     url: '/list',
@@ -58,10 +67,37 @@ angular.module('starter', ['ionic'])
 
   $urlRouterProvider.otherwise('/tab/home');
 })
+.controller('CalendarController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
+  $http.get('js/research_cal.json').success(function(data){
+    $scope.calendar = data.calendar;
+
+    $scope.onItemDelete = function(dayIndex, item){
+      $scope.calendar[dayIndex].schedule.splice($scope.calendar[dayIndex].schedule.indexOf(item), 1); 
+    }; 
+    $scope.deleteItem = function(item){
+      console.log("Index of item: " + $scope.cardeplists.indexOf(item));
+      $scope.calendar.splice($scope.cardeplists.indexOf(item), 1); 
+      data.showRecorder = !data.showRecorder;
+    }; // deleteItem()
+
+    $scope.toggleStar = function(item){
+      console.log(item.star);
+      item.star = !item.star; // use for ng-show 
+    };
+
+    $scope.doRefresh = function(){
+      $http.get('js/research_cal.json')
+        .success(function(data){
+          $scope.calendar = data.calendar;
+          $scope.$broadcast('scroll.refreshComplete');
+        }); // reload all data
+    }
+  })
+}])
 .controller('ListController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
-  $http.get('js/JDPower_research.json').success(function(data){
-    $scope.cardeplists = data;
-    
+  $http.get('js/research_cal.json').success(function(data){
+    $scope.cardeplists = data.cars;
+
     $scope.whichcar = $stateParams.aId;
 
     $scope.moveItem = function(item, fromIndex, toIndex){
