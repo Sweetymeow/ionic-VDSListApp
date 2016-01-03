@@ -34,7 +34,7 @@
              fallback-src="img/car_holder.png" 
              alt="{{item.Model}} Photo">
           <h2 style="font-size: 26px">{{item.Brand + " " + item.Model}}</h2>
-          <h2>{{item.category}}</h2>
+          <h3>{{item.category}}</h3>
           <p>{{item.Intro | limitTo: 100}}
             <span ng-if="item.Intro.length > 100"> &hellip;</span>
           </p>
@@ -56,9 +56,9 @@
         <!-- ion-reorder: http://ionicframework.com/docs/api/directive/ionList/ -->
   <!--           </ion-item>
       <ion-item> -->
-        <h2 class="padding-top padding-left">
+        <h3 class="padding-top padding-left">
           <i class="icon ion-wrench"></i>
-          Dependability</h2>
+          Dependability</h3>
         <div class="row">
           <div class="col col-40">
             <strong>Overall</strong>  

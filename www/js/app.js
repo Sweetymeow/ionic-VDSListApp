@@ -72,6 +72,7 @@ angular.module('starter', ['ionic'])
     $scope.calendar = data.calendar;
 
     $scope.onItemDelete = function(dayIndex, item){
+      console.log($scope.calendar);
       $scope.calendar[dayIndex].schedule.splice($scope.calendar[dayIndex].schedule.indexOf(item), 1); 
     }; 
     $scope.deleteItem = function(item){

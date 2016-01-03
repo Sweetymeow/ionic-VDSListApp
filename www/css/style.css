@@ -1,6 +1,21 @@
 /* Empty. Add your own CSS if you like */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600italic,600|Lato:400,700,300italic,300|Raleway:400,700,600);
 
+body{
+	cursor: url('http://ionicframework.com/img/finger.png');
+}
+.item-divider{
+	background-color: #FCF4EE;
+}
+.bar-dark, .tabs-dark>.tabs{
+}
+
+.item h3{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FC7C7E;
+	font-family: "Lato",sans-serif;
+}
 /*AutoHome Page*/
 
 .homepage .splash {
@@ -43,11 +58,26 @@
     padding-right: 18px;
 }
 .star .item-content{
-	background: #EEF8F6 !important;
+	background: #F7DFCD !important;
 }
 
 .detailpage-view img{
 	max-width: 320px;
+}
+
+/* calendar page */
+.calendarpage{
+
+}
+
+.calendarpage .dayhighlight {
+	background-color: #F7DFCD;
+	border-top: 12px solid #FC7C7E;
+}
+.calendarpage .dayhighlight h2{
+	color: #FC7C7E;
+	font-size: 2rem;
+	font-weight: 200;
 }
 
 
