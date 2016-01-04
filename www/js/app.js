@@ -46,21 +46,30 @@ angular.module('starter', ['ionic'])
       }
     }
   }) // child - home
-  .state('tabs.list', { // child template
-    url: '/list',
+  .state('tabs.brandlist', { // child template
+    url: '/brandlist',
     views: {
-      'list-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
-        templateUrl: 'templates/list.html',
-        controller: 'ListController'
+      'brandlist-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+        templateUrl: 'templates/brandlist.html',
+        controller: 'AutoListController'
+      }
+    }
+  })
+  .state('tabs.modellist', { // child template
+    url: '/brandlist/:brandIndex',
+    views: {
+      'brandlist-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+        templateUrl: 'templates/modellist.html',
+        controller: 'AutoListController'
       }
     }
   }) // child - list page
   .state('tabs.detail', { // child template
-    url: '/list/:aId',
+    url: '/brandlist/:aId',
     views: {
-      'list-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+      'brandlist-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
         templateUrl: 'templates/detail.html',
-        controller: 'ListController'
+        controller: 'AutoListController'
       }
     }
   }) // children of list page
@@ -95,11 +104,56 @@ angular.module('starter', ['ionic'])
     }
   })
 }])
+.controller('AutoListController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
+  $http.get('js/VDSbyModel.json').success(function(data){
+  	console.log($stateParams);
+    $scope.carbrandlist = data;
+    $scope.whichbrand = $stateParams.brandIndex;
+    console.log($scope.whichbrand);
+	console.log($scope.carbrandlist);
+    $scope.whichcar = $stateParams.aId;
+
+    $scope.data = {showDelete: false, showRecorder: false};
+
+    $scope.moveItem = function(item, fromIndex, toIndex){
+          //  remove select item from $scope.cardeplists
+          $scope.cardeplists.splice(fromIndex, 1); 
+          $scope.cardeplists.splice(toIndex, 0, item); // add the item back to $scope.cardeplists
+      // arrayObject.splice(index,howmany,item1,.....,itemX)
+      // index 必需。整数，规定添加/删除项目的位置，使用负数可从数组结尾处规定位置。
+      // howmany 必需。要删除的项目数量。如果设置为 0，则不会删除项目。
+      // item1, ..., itemX 可选。向数组添加的新项目。
+      }; // moveItem()
+      $scope.deleteItem = function(item){
+          console.log("Index of item: " + $scope.cardeplists.indexOf(item));
+          $scope.cardeplists.splice($scope.cardeplists.indexOf(item), 1); 
+          data.showRecorder = !data.showRecorder;
+      }; // deleteItem()
+
+      $scope.toggleStar = function(item){
+          console.log(item.star);
+          item.star = !item.star; // use for ng-show 
+      };
+
+      $scope.doRefresh = function(){
+        $http.get('js/JDPower_research.json')
+            .success(function(data){
+              $scope.cardeplists = data;
+              $scope.$broadcast('scroll.refreshComplete');
+            }); // reload all data
+      }
+      // $scope.onSwipeLeft = function(){
+      //   console.log("onSwipeLeft()");
+      // }
+  })
+}])
 .controller('ListController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
   $http.get('js/research_cal.json').success(function(data){
     $scope.cardeplists = data.cars;
 
     $scope.whichcar = $stateParams.aId;
+
+    $scope.data = {showDelete: false, showRecorder: false};
 
     $scope.moveItem = function(item, fromIndex, toIndex){
           //  remove select item from $scope.cardeplists

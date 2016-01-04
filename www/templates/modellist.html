@@ -1,0 +1,87 @@
+<!-- <ion-pane ng-controller="ListController"> -->
+<!-- <ion-header-bar class="bar-dark"> -->
+<ion-view view-title="Vehicle Dependability List">
+  <ion-nav-buttons side="primary">
+
+  </ion-nav-buttons>
+  <!-- <h2 class="title">J.D.Power 2015 Vehicle Dependability</h2> -->
+  <ion-nav-buttons side="secondary">
+    <button class="button button-icon ion-funnel"
+            ng-click="data.showDelete = !data.showDelete; 
+            data.showRecorder = false;">
+    </button>
+  </button>
+  </ion-nav-buttons>
+
+  <div ng-show="data.showDelete" class="bar bar-subheader item-input-inset bar-light">
+    <label class="item-input-wrapper">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" ng-model="query" placeholder="Search">
+    </label>
+  </div>
+
+  <ion-content ng-class="{'has-subheader': data.showDelete}">
+  	<div ng-repeat='item in carbrandlist | filter:  {Brand: whichbrand}' class="">
+	    <div class="item">
+	    	<h2 style="font-size: 26px">{{item.Brand}}</h2>
+	    </div><!-- Brand Name -->
+
+	    <ion-list show-delete="data.showDelete" show-reorder="data.showRecorder">
+	      <ion-item ng-class="{'star': item.star}"
+	      	ng-repeat="cars in item.Models| filter: query" id="autolist" href="#/tab/brandlist/{{item.Brand}}">
+	        <div class="item-thumbnail-left item-icon-right item-text-wrap" style=" position: relative;">
+	          <img ng-src="img/{{item.Model}}.png"
+	             fallback-src="img/car_holder.png" 
+	             alt="{{item.Model}} Photo">
+	          <h2>{{cars.Brand + " " + cars.Model}}</h2>
+	          <h3>{{cars.category}}</h3>
+	          <p> {{cars.Intro | limitTo: 100}}
+	            <span ng-if="item.Intro.length > 100"> &hellip;</span>
+	          </p>
+	          <button class="button button-clear icon ion-star button-energized"
+	            ng-click = "toggleStar(item)"
+	            ng-show = "item.star"></button>
+	          <ion-option-button class="button-dark"
+	              ng-click = "toggleStar(item)">
+	            <i class="icon ion-star"></i>
+	          </ion-option-button>
+	        </div>
+
+	        <ion-reorder-button class="ion-navicon"
+	          on-reorder="moveItem(item, $fromIndex, $toIndex)">
+	        </ion-reorder-button>
+
+	        <h3 class="padding-top padding-left">
+	          <i class="icon ion-wrench"></i>
+	          Dependability</h3>
+	        <div class="row">
+	          <div class="col col-40">
+	            <strong>Overall</strong>  
+	            <span class="item-note">{{cars.overall}}</span>
+	          </div>
+	          <div class="col col-60">
+	            Powertrain
+	            <span class="item-note">{{cars.powertrain}}</span>
+	          </div>
+	        </div>
+	        <div class="row">
+	          <div class="col col-40">
+	            Body & Interior
+	            <span class="item-note">{{cars.bodyAinterior}}</span>
+	          </div>
+	          <div class="col col-60">
+	            Feature & Accessory
+	            <span class="item-note">{{cars.featureAaccessory}}</span>
+	          </div>
+	        </div>
+	      </ion-item> 
+	      <ion-item class="">
+	        <p>Data from J.D.Power's </p>
+	        <p><a href="http://www.jdpower.com/cars/ratings-and-awards">Vehicle Dependability Study(2015)</a></p>
+	      </ion-item>
+	    </ion-list>
+    </div><!-- ng-repeat -->
+  </ion-content>
+</ion-view>
+
+<!-- </ion-pane> -->
