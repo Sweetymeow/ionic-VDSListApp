@@ -1,9 +1,9 @@
 # ionic-VDSListApp
-Visualization and check list of J.D. Power 2015 Vehicle Dependability Study use ionic framework, D3.js and Angular JS
+A multi-platform's hybird app to show Vehicle Dependability and Sales data with web techologies, i.e. Angular.js, ionic framework and D3.js.
 
-## Data source
+- Data source
 [J.D. Power Car Ratings](http://www.jdpower.com/cars/ratings-and-awards)
-Their Power Circle Ratings are based on independent and unbiased feedback from millions of verified car owners. When users are looking for their next car, rely on J.D. Power for quality, performance, design and **dependability** ratings and research for new and used cars.
+[www.motorintelligence.com](http://www.motorintelligence.com/)
 
 ## JS Libraries
 [ionic framework](http://ionicframework.com/) for web app
