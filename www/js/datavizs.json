@@ -1,0 +1,22 @@
+{
+  "datavizs": [
+    {
+      "project": "Auto Sales by State",
+      "data": "Dealer's Auto Sales in US 2014",
+      "type": "Geo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique."
+    },
+    {
+      "project": "Sales by Category",
+      "data": "Total Auto Sales in US 2014-2015",
+      "type": "Bar",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique."
+    },
+    {
+      "project": "Auto Sales by Maker",
+      "data": "Auto Sales in US 2015",
+      "type": "Area",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam reprehenderit sunt officiis molestiae doloribus non vitae dignissimos similique."
+    }
+  ]
+}

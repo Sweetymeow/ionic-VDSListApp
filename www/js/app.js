@@ -37,12 +37,12 @@ angular.module('starter', ['ionic'])
       }
     }
   })
-  .state('tabs.calendar', { // child template
-    url: '/calendar',
+  .state('tabs.about', { // child template
+    url: '/about',
     views: {
-      'calendar-tabs':{
-        templateUrl: 'templates/calendar.html',
-        controller: 'CalendarController'
+      'about-tabs':{
+        templateUrl: 'templates/about.html',
+        controller: 'AboutController'
       }
     }
   }) // child - home
@@ -123,17 +123,35 @@ angular.module('starter', ['ionic'])
       // }
   })
 }])
+.controller('AboutController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
+  $http.get('js/datavizs.json').success(function(data){
+    $scope.datavizs = data.datavizs;
+
+    $scope.toggleStar = function(item){
+      console.log(item.star);
+      item.star = !item.star; // use for ng-show 
+    };
+
+    $scope.doRefresh = function(){
+      $http.get('js/research_cal.json')
+        .success(function(data){
+          $scope.datavizs = data.datavizs;
+          $scope.$broadcast('scroll.refreshComplete');
+        }); // reload all data
+    }
+  })
+}])
 .controller('CalendarController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
   $http.get('js/research_cal.json').success(function(data){
-    $scope.calendar = data.calendar;
+    $scope.datavizs = data.calendar;
 
     $scope.onItemDelete = function(dayIndex, item){
-      console.log($scope.calendar);
-      $scope.calendar[dayIndex].schedule.splice($scope.calendar[dayIndex].schedule.indexOf(item), 1); 
+      console.log($scope.datavizs);
+      $scope.datavizs[dayIndex].schedule.splice($scope.datavizs[dayIndex].schedule.indexOf(item), 1); 
     }; 
     $scope.deleteItem = function(item){
       console.log("Index of item: " + $scope.cardeplists.indexOf(item));
-      $scope.calendar.splice($scope.cardeplists.indexOf(item), 1); 
+      $scope.datavizs.splice($scope.cardeplists.indexOf(item), 1); 
       data.showRecorder = !data.showRecorder;
     }; // deleteItem()
 
@@ -145,7 +163,7 @@ angular.module('starter', ['ionic'])
     $scope.doRefresh = function(){
       $http.get('js/research_cal.json')
         .success(function(data){
-          $scope.calendar = data.calendar;
+          $scope.datavizs = data.calendar;
           $scope.$broadcast('scroll.refreshComplete');
         }); // reload all data
     }
