@@ -20,7 +20,7 @@
         <h2>{{day.titel}}</h2>
         {{day.description}}
       </div> <!-- daytitle -->
-      
+
       <ion-list class="">
         <ion-item ng-class="{'item-avatar': item.shortname, 'star': item.star} " 
           class="item-text-wrap item-icon-right"
@@ -30,7 +30,6 @@
           <h3>{{item.title}}</h3>
           <h4>{{item.artist ? 'with' + item.artist: ''}}</h4>
           <p>{{ item.description }}</p>
-
           <button class="button button-clear icon ion-star button-energized" ng-show='item.star' 
             ng-click = "toggleStar(item)"></button>
 

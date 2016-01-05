@@ -17,32 +17,34 @@
     </label>
   </div>
 
-  <ion-content ng-class="{'has-subheader': data.showDelete}">
-  	<div ng-repeat='item in carbrandlist | filter:  {Brand: whichbrand}' class="">
-	    <div class="item">
-	    	<h2 style="font-size: 26px">{{item.Brand}}</h2>
+  <ion-content ng-class="{'has-subheader': data.showDelete}"  	id = "modelList">
+  	<div ng-repeat='item in carbrandlist | filter:  {Brand: whichbrand}'>
+	    <div class="item item-thumbnail" id ="brandTitle">
+	    	<img ng-src="img/brandicon/{{item.Brand}}_i.png"
+             fallback-src="img/car_holder.png" 
+             alt="{{item.Brand}} Photo">
+	    	<h2 class="padding">{{item.Brand}}</h2>
+	    	<span class="padding-top item-note">*Swipe left to hightlight item</span>
 	    </div><!-- Brand Name -->
 
 	    <ion-list show-delete="data.showDelete" show-reorder="data.showRecorder">
-	      <ion-item ng-class="{'star': item.star}"
+	      <ion-item ng-class="{'star': cars.star}"
 	      	ng-repeat="cars in item.Models| filter: query" id="autolist" href="#/tab/brandlist/{{item.Brand}}/model/{{cars.ModelIndex}}">
-		<!-- <ion-item ng-class="{'star': item.star}"
-	      	ng-repeat="cars in item.Models| filter: query" id="autolist" href="#/tab/brandlist/{{item.Brand}}/model/{{item.BrandIndex}}">-->
 
 	        <div class="item-thumbnail-left item-icon-right item-text-wrap" style=" position: relative;">
 	          <img ng-src="img/{{cars.Model}}.png"
 	             fallback-src="img/car_holder.png" 
 	             alt="{{cars.Model}} Photo">
-	          <h2 id="modelName">{{cars.Brand + " " + cars.Model}}</h2>
+	          <h2 class="padding-top" id="modelName">{{cars.Brand + " " + cars.Model}}</h2>
 	          <h3>{{cars.category}}</h3>
 	          <p> {{cars.Intro | limitTo: 100}}
-	            <span ng-if="item.Intro.length > 100"> &hellip;</span>
+	            <span ng-if="cars.Intro.length > 100"> &hellip;</span>
 	          </p>
 	          <button class="button button-clear icon ion-star button-energized"
-	            ng-click = "toggleStar(item)"
-	            ng-show = "item.star"></button>
+	            ng-click = "toggleStar(cars)"
+	            ng-show = "cars.star"></button>
 	          <ion-option-button class="button-dark"
-	              ng-click = "toggleStar(item)">
+	              ng-click = "toggleStar(cars)">
 	            <i class="icon ion-star"></i>
 	          </ion-option-button>
 	        </div>
@@ -53,7 +55,7 @@
 
 	        <h2 class="padding-top padding-left">
 	          <i class="icon ion-wrench"></i>
-	          Dependability</h2>
+	          Dependability (Max to 5)</h2>
 	        <div class="row">
 	          <div class="col col-40">
 	            <strong>Overall</strong>  
@@ -75,7 +77,7 @@
 	          </div>
 	        </div>
 	      </ion-item> 
-	      <ion-item class="">
+	      <ion-item class="dataReference item-divider">
 	        <p>Data from J.D.Power's </p>
 	        <p><a href="http://www.jdpower.com/cars/ratings-and-awards">Vehicle Dependability Study(2015)</a></p>
 	      </ion-item>

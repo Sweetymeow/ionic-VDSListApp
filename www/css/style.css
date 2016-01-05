@@ -16,6 +16,13 @@ body{
 	color: #FC7C7E;
 	font-family: "Lato",sans-serif;
 }
+
+.dataReference{
+	text-align: center;
+}
+.dataReference p{
+	font-size: .8em;
+}
 /*AutoHome Page*/
 
 .homepage .splash {
@@ -47,22 +54,53 @@ body{
 }
 
 /*autolist page*/
-#autolist .item-content{
+#brandList .item-content{
   position: relative;
   z-index: 2;
   padding: 16px 16px 16px 16px;
   border: none;
   background-color: #fff; 
 }
-#autolist .item-icon-right {
+#brandList .item-icon-right {
     padding-right: 18px;
 }
 .star .item-content{
-	background: #F7DFCD !important;
+	background: #FCF4EE !important;
 }
 
-.detailpage-view img{
-	max-width: 320px;
+#modelList .item .item-content{
+	padding-right: 12px; 
+}
+#modelList .item#brandTitle{
+	border-bottom: 4px solid #FC7C7E;
+}
+#modelList .item#brandTitle img{
+	float: left;
+	max-width: 30%;
+}
+#modelList .item#brandTitle h2{
+	font-family: "Lato", Georgia, sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	padding: 22px 20px;
+}
+#modelList .item#brandTitle span{
+	font-family: "Lato", Georgia, sans-serif;
+	font-weight: 300;
+	font-size: .8em;
+}
+#modelList .list .item-content h2#modelName{
+	font-size: 1.6em;
+}
+
+.detailpage #brandName h2{
+	font-weight: bold;
+	font-size: 1.2em; 
+}
+
+.detailpage #carDetail img{
+	max-width: 100%;
+	padding: 10px 20% 10px 20%;
 }
 
 /* calendar page */

@@ -4,18 +4,18 @@
 <ion-view view-title="Vehicle Detail">
 	<ion-nav-buttons side="secondary">
 	    <button class="button button-icon ion-star"
-	        ng-click="data.showDelete = !data.showDelete;">
+	        ng-click="data.showRecord = !data.showRecord;">
 	    </button>
 	</ion-nav-buttons>
 
 	<ion-content class="detailpage">
-		<div ng-repeat='item in carbrandlist | filter:  {Brand: whichbrand}' class="">
+		<div ng-repeat='item in carbrandlist | filter:  {Brand: whichbrand}'>
 		    <div class="item item-divider" id="brandName">
 		    	<h2><i class="icon ion-model-s padding-right"></i>{{item.Brand}}</h2>
 		    </div><!-- Brand Name -->
 
-		    <ion-list>
-		      <ion-item ng-class="{'star': item.star}"
+		    <ion-list show-reorder="data.showRecorder">
+		      <ion-item ng-class="{'star': cars.star}"
 		      	ng-repeat="cars in item.Models| filter: {ModelIndex: whichcar}" href="#">
 
 		        <div class="item-text-wrap" style=" position: relative;" id="carDetail">
@@ -25,7 +25,7 @@
 					<h2 style="font-size: 26px">{{cars.Brand + " " + cars.Model}}</h2>
 					<h3>{{cars.category}}</h3>
 					<p> {{cars.Intro | limitTo: 100}}
-					<span ng-if="item.Intro.length > 100"> &hellip;</span>
+					<span ng-if="cars.Intro.length > 100"> &hellip;</span>
 					</p>
 					<h3 class="padding-top padding-left">
 							<i class="icon ion-wrench"></i>
@@ -48,20 +48,22 @@
 						  <span class="item-note">{{cars.featureAaccessory}}</span>
 						</div>
 					</div>
-		          <button class="button button-clear icon ion-star button-energized"
-		            ng-click = "toggleStar(item)"
-		            ng-show = "item.star"></button>
-		          <ion-option-button class="button-dark"
-		              ng-click = "toggleStar(item)">
-		            <i class="icon ion-star"></i>
-		          </ion-option-button>
-		        </div>
 
-		        <ion-reorder-button class="ion-navicon"
-		          on-reorder="moveItem(item, $fromIndex, $toIndex)">
-		        </ion-reorder-button>
+					<button class="button button-clear icon ion-star button-energized"
+					ng-click = "toggleStar(cars)"
+					ng-show = "cars.star"></button>
+					
+					<ion-option-button class="button-dark"
+					  ng-click = "toggleStar(cars)">
+					<i class="icon ion-star"></i>
+					</ion-option-button>
+					
+					<ion-reorder-button class="ion-star"
+					on-reorder="toggleStar(cars)">
+					</ion-reorder-button>
+		        </div>
 		      </ion-item> 
-		      <ion-item>
+		      <ion-item class="dataReference item-divider">
 		        <p>Data from J.D.Power's </p>
 		        <p><a href="http://www.jdpower.com/cars/ratings-and-awards">Vehicle Dependability Study(2015)</a></p>
 		      </ion-item>

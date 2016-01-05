@@ -9,10 +9,10 @@
         "Model": "TSX",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -20,10 +20,10 @@
         "Model": "TL",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 2,
@@ -31,10 +31,10 @@
         "Model": "RDX",
         "year": 2012,
         "category": "COMPACT PREMIUM SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 3,
@@ -42,10 +42,10 @@
         "Model": "MDX",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -59,10 +59,10 @@
         "Model": "A5",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 1,
@@ -70,10 +70,10 @@
         "Model": "A4",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 2,
@@ -81,10 +81,10 @@
         "Model": "A3",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -92,10 +92,10 @@
         "Model": "Q5",
         "year": 2012,
         "category": "COMPACT PREMIUM SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 4,
@@ -103,10 +103,10 @@
         "Model": "A7",
         "year": 2012,
         "category": "MIDSIZE PREMIUM CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 5,
@@ -114,10 +114,10 @@
         "Model": "A6",
         "year": 2012,
         "category": "MIDSIZE PREMIUM CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 6,
@@ -125,10 +125,10 @@
         "Model": "Q7",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -142,10 +142,10 @@
         "Model": "3 series",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -153,10 +153,10 @@
         "Model": "1 Series",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 2,
@@ -164,10 +164,10 @@
         "Model": "X3",
         "year": 2012,
         "category": "COMPACT PREMIUM SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 3,
@@ -175,10 +175,10 @@
         "Model": "5 Series",
         "year": 2012,
         "category": "MIDSIZE PREMIUM CAR",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 4,
@@ -186,10 +186,10 @@
         "Model": "X5",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -203,10 +203,10 @@
         "Model": "Verano",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 1,
@@ -214,10 +214,10 @@
         "Model": "LaCrosse",
         "year": 2012,
         "category": "LARGE CAR",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 3,
+        "bodyAinterior": 5,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 2,
@@ -225,10 +225,10 @@
         "Model": "Regal",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -236,10 +236,10 @@
         "Model": "Enclave",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       }
     ]
   },
@@ -253,10 +253,10 @@
         "Model": "CTS",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 1,
@@ -264,10 +264,10 @@
         "Model": "SRX",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -281,10 +281,10 @@
         "Model": "Cruze",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 1,
@@ -292,10 +292,10 @@
         "Model": "Volt",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 5,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 2,
@@ -303,10 +303,10 @@
         "Model": "Equinox",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -314,10 +314,10 @@
         "Model": "Impala",
         "year": 2012,
         "category": "LARGE CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 4,
@@ -325,10 +325,10 @@
         "Model": "Silverado HD",
         "year": 2012,
         "category": "LARGE HEAVY DUTY PICKUP",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 5,
@@ -336,10 +336,10 @@
         "Model": "Avalanche",
         "year": 2012,
         "category": "LARGE LIGHT DUTY PICKUP",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 2,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 6,
@@ -347,10 +347,10 @@
         "Model": "Silverado LD",
         "year": 2012,
         "category": "LARGE LIGHT DUTY PICKUP",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 2,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 7,
@@ -358,10 +358,10 @@
         "Model": "Suburban",
         "year": 2012,
         "category": "LARGE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 2,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 8,
@@ -369,10 +369,10 @@
         "Model": "Tahoe",
         "year": 2012,
         "category": "LARGE SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 9,
@@ -380,10 +380,10 @@
         "Model": "Malibu",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 3,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 10,
@@ -391,10 +391,10 @@
         "Model": "Colorado",
         "year": 2012,
         "category": "MIDSIZE PICKUP",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 11,
@@ -402,10 +402,10 @@
         "Model": "Camaro",
         "year": 2012,
         "category": "MIDSIZE SPORT CAR",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 12,
@@ -413,10 +413,10 @@
         "Model": "Traverse",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 13,
@@ -424,10 +424,10 @@
         "Model": "Sonic",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -441,10 +441,10 @@
         "Model": "300",
         "year": 2012,
         "category": "LARGE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -452,10 +452,10 @@
         "Model": "200",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 2,
@@ -463,10 +463,10 @@
         "Model": "Town & Country",
         "year": 2012,
         "category": "MINIVAN",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 5,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -480,10 +480,10 @@
         "Model": "Caliber",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -491,10 +491,10 @@
         "Model": "Charger",
         "year": 2012,
         "category": "LARGE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 2,
@@ -502,10 +502,10 @@
         "Model": "Avenger",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 3,
@@ -513,10 +513,10 @@
         "Model": "Challenger",
         "year": 2012,
         "category": "MIDSIZE SPORT CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 4,
@@ -524,10 +524,10 @@
         "Model": "Durango",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 5,
@@ -535,10 +535,10 @@
         "Model": "Journey",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 6,
@@ -546,10 +546,10 @@
         "Model": "Grand Caravan",
         "year": 2012,
         "category": "MINIVAN",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -563,10 +563,10 @@
         "Model": "Focus",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -574,10 +574,10 @@
         "Model": "Escape",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 2,
@@ -585,10 +585,10 @@
         "Model": "Taurus",
         "year": 2012,
         "category": "LARGE CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 3,
@@ -596,10 +596,10 @@
         "Model": "F-250/F350 Super Duty",
         "year": 2012,
         "category": "LARGE HEAVY DUTY PICKUP",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 4,
@@ -607,10 +607,10 @@
         "Model": "F-150 LD",
         "year": 2012,
         "category": "LARGE LIGHT DUTY PICKUP",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 5,
@@ -618,10 +618,10 @@
         "Model": "Expedition",
         "year": 2012,
         "category": "LARGE SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 5,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 6,
@@ -629,10 +629,10 @@
         "Model": "Fusion",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 7,
@@ -640,10 +640,10 @@
         "Model": "Mustang",
         "year": 2012,
         "category": "MIDSIZE SPORT CAR",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 8,
@@ -651,10 +651,10 @@
         "Model": "Edge",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 9,
@@ -662,10 +662,10 @@
         "Model": "Flex",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 10,
@@ -673,10 +673,10 @@
         "Model": "Explorer",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 11,
@@ -684,10 +684,10 @@
         "Model": "Fiesta",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 5,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -701,10 +701,10 @@
         "Model": "Terrain",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 1,
@@ -712,10 +712,10 @@
         "Model": "Sierra HD",
         "year": 2012,
         "category": "LARGE HEAVY DUTY PICKUP",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 2,
@@ -723,10 +723,10 @@
         "Model": "Sierra LD",
         "year": 2012,
         "category": "LARGE LIGHT DUTY PICKUP",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 3,
@@ -734,10 +734,10 @@
         "Model": "Yukon",
         "year": 2012,
         "category": "LARGE SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 4,
@@ -745,10 +745,10 @@
         "Model": "Canyon",
         "year": 2012,
         "category": "MIDSIZE PICKUP",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 5,
@@ -756,10 +756,10 @@
         "Model": "Acadia",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -773,10 +773,10 @@
         "Model": "Insight",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -784,10 +784,10 @@
         "Model": "Civic",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 2,
@@ -795,10 +795,10 @@
         "Model": "CR-V",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -806,10 +806,10 @@
         "Model": "Accord",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 4,
@@ -817,10 +817,10 @@
         "Model": "Ridgeline",
         "year": 2012,
         "category": "MIDSIZE PICKUP",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 5,
@@ -828,10 +828,10 @@
         "Model": "Pilot",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 6,
@@ -839,10 +839,10 @@
         "Model": "Crosstour",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 7,
@@ -850,10 +850,10 @@
         "Model": "Odyssey",
         "year": 2012,
         "category": "MINIVAN",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 8,
@@ -861,10 +861,10 @@
         "Model": "Fit",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       }
     ]
   },
@@ -878,10 +878,10 @@
         "Model": "Elantra",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 1,
@@ -889,10 +889,10 @@
         "Model": "Veloster",
         "year": 2012,
         "category": "COMPACT SPORTY",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 2,
@@ -900,10 +900,10 @@
         "Model": "Sonata",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 3,
@@ -911,10 +911,10 @@
         "Model": "Genesis",
         "year": 2012,
         "category": "MIDSIZE PREMIUM CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 4,
@@ -922,10 +922,10 @@
         "Model": "Genesis Coupe",
         "year": 2012,
         "category": "MIDSIZE SPORT CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 5,
@@ -933,10 +933,10 @@
         "Model": "Santa Fe",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 6,
@@ -944,10 +944,10 @@
         "Model": "Accent",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 7,
@@ -955,10 +955,10 @@
         "Model": "Tucson",
         "year": 2012,
         "category": "SMALL SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -972,10 +972,10 @@
         "Model": "G",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 1,
@@ -983,10 +983,10 @@
         "Model": "M",
         "year": 2012,
         "category": "MIDSIZE PREMIUM CAR",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       }
     ]
   },
@@ -1000,10 +1000,10 @@
         "Model": "Wrangler",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -1011,10 +1011,10 @@
         "Model": "Liberty",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 2,
@@ -1022,10 +1022,10 @@
         "Model": "Grand Cherokee",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 3,
@@ -1033,10 +1033,10 @@
         "Model": "Compass",
         "year": 2012,
         "category": "SMALL SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 5
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 4,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 4,
@@ -1044,10 +1044,10 @@
         "Model": "Patriot",
         "year": 2012,
         "category": "SMALL SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       }
     ]
   },
@@ -1061,10 +1061,10 @@
         "Model": "Forte",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -1072,10 +1072,10 @@
         "Model": "Soul",
         "year": 2012,
         "category": "COMPACT MULTI-PURPOSE VEHICLE",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 2,
@@ -1083,10 +1083,10 @@
         "Model": "Optima",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 3,
@@ -1094,10 +1094,10 @@
         "Model": "Sorento",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 4,
@@ -1105,10 +1105,10 @@
         "Model": "Sedona",
         "year": 2012,
         "category": "MINIVAN",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 4,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 5,
@@ -1116,10 +1116,10 @@
         "Model": "Rio",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 6,
@@ -1127,10 +1127,10 @@
         "Model": "Sportage",
         "year": 2012,
         "category": "SMALL SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       }
     ]
   },
@@ -1144,10 +1144,10 @@
         "Model": "Range Rover Evoque",
         "year": 2012,
         "category": "COMPACT PREMIUM SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -1161,10 +1161,10 @@
         "Model": "ES",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -1172,10 +1172,10 @@
         "Model": "CT",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 2,
@@ -1183,10 +1183,10 @@
         "Model": "IS",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -1194,10 +1194,10 @@
         "Model": "RX",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 4,
@@ -1205,10 +1205,10 @@
         "Model": "GX",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       }
     ]
   },
@@ -1222,10 +1222,10 @@
         "Model": "MKZ",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -1233,10 +1233,10 @@
         "Model": "MKS",
         "year": 2012,
         "category": "MIDSIZE PREMIUM CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 2,
@@ -1244,10 +1244,10 @@
         "Model": "MKX",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -1261,10 +1261,10 @@
         "Model": "Cooper",
         "year": 2012,
         "category": "COMPACT SPORTY",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -1272,10 +1272,10 @@
         "Model": "Countryman",
         "year": 2012,
         "category": "SMALL SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -1289,10 +1289,10 @@
         "Model": "MAZDA3",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -1300,10 +1300,10 @@
         "Model": "MAZDA5",
         "year": 2012,
         "category": "COMPACT MULTI-PURPOSE VEHICLE",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 2,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 2,
@@ -1311,10 +1311,10 @@
         "Model": "MAZDA6",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 4
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -1322,10 +1322,10 @@
         "Model": "CX-9",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       }
     ]
   },
@@ -1339,10 +1339,10 @@
         "Model": "C-Class",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 0,
@@ -1350,10 +1350,10 @@
         "Model": "GLK-Class",
         "year": 2012,
         "category": "COMPACT PREMIUM SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 0,
@@ -1361,10 +1361,10 @@
         "Model": "E-Class",
         "year": 2012,
         "category": "MIDSIZE PREMIUM CAR",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 0,
@@ -1372,10 +1372,10 @@
         "Model": "M-Class",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -1389,10 +1389,10 @@
         "Model": "LEAF",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 1,
@@ -1400,10 +1400,10 @@
         "Model": "Sentra",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 2,
@@ -1411,10 +1411,10 @@
         "Model": "Rogue",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -1422,10 +1422,10 @@
         "Model": "Xterra",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 4,
@@ -1433,10 +1433,10 @@
         "Model": "Maxima",
         "year": 2012,
         "category": "LARGE CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 5,
@@ -1444,10 +1444,10 @@
         "Model": "Altima",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 6,
@@ -1455,10 +1455,10 @@
         "Model": "Frontier",
         "year": 2012,
         "category": "MIDSIZE PICKUP",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 2,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 7,
@@ -1466,10 +1466,10 @@
         "Model": "Pathfinder",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 8,
@@ -1477,10 +1477,10 @@
         "Model": "Murano",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 9,
@@ -1488,10 +1488,10 @@
         "Model": "Versa",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 4
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 10,
@@ -1499,10 +1499,10 @@
         "Model": "JUKE",
         "year": 2012,
         "category": "SMALL SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -1516,10 +1516,10 @@
         "Model": "Cayenne",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -1533,10 +1533,10 @@
         "Model": "2500/3500 HD",
         "year": 2012,
         "category": "LARGE HEAVY DUTY PICKUP",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 1,
@@ -1544,10 +1544,10 @@
         "Model": "1500 LD",
         "year": 2012,
         "category": "LARGE LIGHT DUTY PICKUP",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       }
     ]
   },
@@ -1561,10 +1561,10 @@
         "Model": "xB",
         "year": 2012,
         "category": "COMPACT MULTI-PURPOSE VEHICLE",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -1572,10 +1572,10 @@
         "Model": "tC",
         "year": 2012,
         "category": "COMPACT SPORTY",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 2,
@@ -1583,10 +1583,10 @@
         "Model": "xD",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 5
       }
     ]
   },
@@ -1600,10 +1600,10 @@
         "Model": "Impreza",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -1611,10 +1611,10 @@
         "Model": "Forester",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 2,
@@ -1622,10 +1622,10 @@
         "Model": "Legacy",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 3,
@@ -1633,10 +1633,10 @@
         "Model": "Outback",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 3,
+        "featureAaccessory": 4
       }
     ]
   },
@@ -1650,10 +1650,10 @@
         "Model": "Corolla",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 5
+        "overall": 5,
+        "powertrain": 4,
+        "bodyAinterior": 5,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 1,
@@ -1661,10 +1661,10 @@
         "Model": "Prius",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 2,
@@ -1672,10 +1672,10 @@
         "Model": "Prius v",
         "year": 2012,
         "category": "COMPACT MULTI-PURPOSE VEHICLE",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 3,
@@ -1683,10 +1683,10 @@
         "Model": "RAV4",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 4,
@@ -1694,10 +1694,10 @@
         "Model": "FJ Cruiser",
         "year": 2012,
         "category": "COMPACT SUV",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 5,
@@ -1705,10 +1705,10 @@
         "Model": "Avalon",
         "year": 2012,
         "category": "LARGE CAR",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 6,
@@ -1716,10 +1716,10 @@
         "Model": "Tundra",
         "year": 2012,
         "category": "LARGE LIGHT DUTY PICKUP",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 7,
@@ -1727,10 +1727,10 @@
         "Model": "Sequoia",
         "year": 2012,
         "category": "LARGE SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 8,
@@ -1738,10 +1738,10 @@
         "Model": "Camery",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 9,
@@ -1749,10 +1749,10 @@
         "Model": "Tacoma",
         "year": 2012,
         "category": "MIDSIZE PICKUP",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 10,
@@ -1760,10 +1760,10 @@
         "Model": "4Runner",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 5,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 11,
@@ -1771,10 +1771,10 @@
         "Model": "Highlander",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 5,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 12,
@@ -1782,10 +1782,10 @@
         "Model": "Venza",
         "year": 2012,
         "category": "MIDSIZE SUV",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 5
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 3,
+        "featureAaccessory": 5
       },
       {
         "ModelIndex": 13,
@@ -1793,10 +1793,10 @@
         "Model": "Sienna",
         "year": 2012,
         "category": "MINIVAN",
-        "Overall Dependability": 5,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 3
+        "overall": 5,
+        "powertrain": 5,
+        "bodyAinterior": 5,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 14,
@@ -1804,10 +1804,10 @@
         "Model": "Yaris",
         "year": 2012,
         "category": "SMALL CAR",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 5,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 5,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       }
     ]
   },
@@ -1821,10 +1821,10 @@
         "Model": "Beetle",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 1,
@@ -1832,10 +1832,10 @@
         "Model": "Jetta",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 2,
@@ -1843,10 +1843,10 @@
         "Model": "Golf",
         "year": 2012,
         "category": "COMPACT",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 3
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 3,
@@ -1854,10 +1854,10 @@
         "Model": "CC",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 2
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 2,
+        "featureAaccessory": 2
       },
       {
         "ModelIndex": 4,
@@ -1865,10 +1865,10 @@
         "Model": "GTI",
         "year": 2012,
         "category": "COMPACT SPORTY",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 5,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 5,
@@ -1876,10 +1876,10 @@
         "Model": "Eos",
         "year": 2012,
         "category": "COMPACT SPORTY",
-        "Overall Dependability": 4,
-        "Powertrain  Dependability": 4,
-        "Body & Interior Dependability": 4,
-        "Feature & Accessory Dependability": 4
+        "overall": 4,
+        "powertrain": 4,
+        "bodyAinterior": 4,
+        "featureAaccessory": 4
       },
       {
         "ModelIndex": 6,
@@ -1887,10 +1887,10 @@
         "Model": "Passat",
         "year": 2012,
         "category": "MIDSIZE CAR",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 7,
@@ -1898,10 +1898,10 @@
         "Model": "Touareg",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 2,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 8,
@@ -1909,10 +1909,10 @@
         "Model": "Tiguan",
         "year": 2012,
         "category": "SMALL SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 2,
-        "Body & Interior Dependability": 5,
-        "Feature & Accessory Dependability": 2
+        "overall": 3,
+        "powertrain": 2,
+        "bodyAinterior": 5,
+        "featureAaccessory": 2
       }
     ]
   },
@@ -1926,10 +1926,10 @@
         "Model": "S60",
         "year": 2012,
         "category": "COMPACT PREMIUM",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 1,
@@ -1937,10 +1937,10 @@
         "Model": "XC60",
         "year": 2012,
         "category": "COMPACT PREMIUM SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 2,
@@ -1948,10 +1948,10 @@
         "Model": "XC70",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 3,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 3,
-        "Feature & Accessory Dependability": 3
+        "overall": 3,
+        "powertrain": 3,
+        "bodyAinterior": 3,
+        "featureAaccessory": 3
       },
       {
         "ModelIndex": 3,
@@ -1959,10 +1959,10 @@
         "Model": "XC90",
         "year": 2012,
         "category": "MIDSIZE PREMIUM SUV",
-        "Overall Dependability": 2,
-        "Powertrain  Dependability": 3,
-        "Body & Interior Dependability": 2,
-        "Feature & Accessory Dependability": 3
+        "overall": 2,
+        "powertrain": 3,
+        "bodyAinterior": 2,
+        "featureAaccessory": 3
       }
     ]
   }

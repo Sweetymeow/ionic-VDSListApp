@@ -32,7 +32,7 @@ angular.module('starter', ['ionic'])
   .state('tabs.home', { // child template
     url: '/home',
     views: {
-      'home-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+      'home-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="home-tabs"> in tabs.html
         templateUrl: 'templates/home.html'
       }
     }
@@ -49,26 +49,26 @@ angular.module('starter', ['ionic'])
   .state('tabs.brandlist', { // child template
     url: '/brandlist',
     views: {
-      'brandlist-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
+      'brandlist-tabs':{
         templateUrl: 'templates/brandlist.html',
         controller: 'AutoListController'
       }
     }
   })
   .state('tabs.modellist', { // child template
-    url: '/brandlist/:brandIndex',
+    url: '/brandlist/:brandName',
     views: {
-      'brandlist-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
-        templateUrl: 'templates/modellist.html',
+      'brandlist-tabs':{
+        templateUrl: 'templates/brandlist.model.html',
         controller: 'AutoListController'
       }
     }
   }) // child - list page
   .state('tabs.detail', { // child template
-    url: '/brandlist/:aId',
+    url: '/brandlist/:brandName/model/:aId',
     views: {
-      'brandlist-tabs':{ // keep the same with <ion-tabs><ion-tab><ion-nav-view name="list-tabs"> in tabs.html
-        templateUrl: 'templates/detail.html',
+      'brandlist-tabs':{
+        templateUrl: 'templates/brandlist.model.detail.html',
         controller: 'AutoListController'
       }
     }
@@ -76,42 +76,18 @@ angular.module('starter', ['ionic'])
 
   $urlRouterProvider.otherwise('/tab/home');
 })
-.controller('CalendarController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
-  $http.get('js/research_cal.json').success(function(data){
-    $scope.calendar = data.calendar;
 
-    $scope.onItemDelete = function(dayIndex, item){
-      console.log($scope.calendar);
-      $scope.calendar[dayIndex].schedule.splice($scope.calendar[dayIndex].schedule.indexOf(item), 1); 
-    }; 
-    $scope.deleteItem = function(item){
-      console.log("Index of item: " + $scope.cardeplists.indexOf(item));
-      $scope.calendar.splice($scope.cardeplists.indexOf(item), 1); 
-      data.showRecorder = !data.showRecorder;
-    }; // deleteItem()
-
-    $scope.toggleStar = function(item){
-      console.log(item.star);
-      item.star = !item.star; // use for ng-show 
-    };
-
-    $scope.doRefresh = function(){
-      $http.get('js/research_cal.json')
-        .success(function(data){
-          $scope.calendar = data.calendar;
-          $scope.$broadcast('scroll.refreshComplete');
-        }); // reload all data
-    }
-  })
-}])
 .controller('AutoListController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
   $http.get('js/VDSbyModel.json').success(function(data){
   	console.log($stateParams);
     $scope.carbrandlist = data;
-    $scope.whichbrand = $stateParams.brandIndex;
-    console.log($scope.whichbrand);
-	console.log($scope.carbrandlist);
-    $scope.whichcar = $stateParams.aId;
+    $scope.whichbrand = $stateParams.brandName;
+    console.log("whichbrand: " + $scope.whichbrand);
+    
+    if($stateParams.brandName){
+    	$scope.whichcar = $stateParams.aId;
+    	console.log($scope.whichcar);
+	}
 
     $scope.data = {showDelete: false, showRecorder: false};
 
@@ -145,6 +121,34 @@ angular.module('starter', ['ionic'])
       // $scope.onSwipeLeft = function(){
       //   console.log("onSwipeLeft()");
       // }
+  })
+}])
+.controller('CalendarController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
+  $http.get('js/research_cal.json').success(function(data){
+    $scope.calendar = data.calendar;
+
+    $scope.onItemDelete = function(dayIndex, item){
+      console.log($scope.calendar);
+      $scope.calendar[dayIndex].schedule.splice($scope.calendar[dayIndex].schedule.indexOf(item), 1); 
+    }; 
+    $scope.deleteItem = function(item){
+      console.log("Index of item: " + $scope.cardeplists.indexOf(item));
+      $scope.calendar.splice($scope.cardeplists.indexOf(item), 1); 
+      data.showRecorder = !data.showRecorder;
+    }; // deleteItem()
+
+    $scope.toggleStar = function(item){
+      console.log(item.star);
+      item.star = !item.star; // use for ng-show 
+    };
+
+    $scope.doRefresh = function(){
+      $http.get('js/research_cal.json')
+        .success(function(data){
+          $scope.calendar = data.calendar;
+          $scope.$broadcast('scroll.refreshComplete');
+        }); // reload all data
+    }
   })
 }])
 .controller('ListController', ['$scope', '$http', '$stateParams', function($scope, $http, $stateParams){
