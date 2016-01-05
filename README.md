@@ -1,7 +1,7 @@
 # ionic-VDSListApp
 A multi-platform's hybird app to show Vehicle Dependability and Sales data with web techologies, i.e. Angular.js, ionic framework and D3.js.
 
-![Home Page](https://github.com/Sweetymeow/ionic-VDSListApp/blob/master/design/Home.png)
+![Home Page](https://github.com/Sweetymeow/ionic-VDSListApp/blob/master/design/Home_mini.png)
 ![List Page](https://github.com/Sweetymeow/ionic-VDSListApp/blob/master/design/List.png)
 ![Viz Page](https://github.com/Sweetymeow/ionic-VDSListApp/blob/master/design/Viz.png)
 
